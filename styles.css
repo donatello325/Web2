@@ -1,0 +1,74 @@
+/* Encabezado y estilo general */
+.header-gray {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: lightgray;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+.button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.total {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Estilos para las barras de progreso */
+.progress-container {
+    margin-top: 20px;
+}
+.progress-bar {
+    margin: 10px 0;
+}
+.progress {
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+.progress-fill {
+    background-color: green;
+    height: 100%;
+    width: 0;
+}
